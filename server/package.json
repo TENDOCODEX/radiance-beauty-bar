@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "...",
+    "dotenv": "...",
+    "express": "...",
+    "mysql2": "..."
+  },
+  "devDependencies": {
+    "@types/cors": "...",
+    "@types/express": "...",
+    "@types/node": "...",
+    "tsx": "...",
+    "typescript": "..."
+  }
+}
